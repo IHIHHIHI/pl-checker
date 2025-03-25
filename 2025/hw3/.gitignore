@@ -1,0 +1,12 @@
+*.k--
+*.txt
+*.out
+*.myout
+!examples/*.k--
+!examples/*.ans
+!examples/*.in
+k.ml
+run
+lexer.ml
+parser.ml
+parser.mli

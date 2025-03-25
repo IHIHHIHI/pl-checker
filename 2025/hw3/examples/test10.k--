@@ -1,0 +1,8 @@
+(* Public test case 10 : while statement *)
+
+let x := 831 in
+let y := 39 in
+(
+    while y < x do
+        (write x; x := x - y)
+)

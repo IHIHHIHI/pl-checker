@@ -1,0 +1,16 @@
+(* Public test case 6 : all conditional operations *)
+
+let x := 831 in
+let y := 39 in
+(
+    if x < y then
+        if not (x = y) then
+            write 1
+        else
+            write 2
+    else
+        if not (x = y) then
+            write 3
+        else
+            write 4
+)

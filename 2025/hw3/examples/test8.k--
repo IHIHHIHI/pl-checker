@@ -1,0 +1,12 @@
+(* Public test case 8 : multiple assignments *)
+
+let x := 3 in
+(
+    x := 4;
+    x := 5;
+    x := 6;
+    x := 7;
+    x := 8;
+    x := 9;
+    write x
+)

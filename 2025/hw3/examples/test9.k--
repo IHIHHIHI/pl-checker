@@ -1,0 +1,24 @@
+(* Public test case 9 : nested if statements *)
+
+if true then
+    if false then
+        write 0
+    else
+        if false then
+            write 0
+        else
+            if true then
+                if true then
+                    if true then
+                        if false then
+                            write 0
+                        else
+                            write 39
+                    else
+                        write 0
+                else
+                    write 0
+            else
+                write 0
+else
+    write 0

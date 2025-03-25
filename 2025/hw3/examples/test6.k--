@@ -1,0 +1,5 @@
+(* Public test case 6 : all arithmetic operations *)
+
+let x := 831 in
+let y := 39 in
+(write x+y; write x-y; write x*y; write x/y)
