@@ -62,6 +62,7 @@ module TestEx3: TestEx =
       ; FAIL (Branch (Guide ("c", Branch (Branch (Guide ("a", Branch (End (NameBox "a"), End (NameBox "b"))), Branch (End (NameBox "b"), End (NameBox "a"))), End (NameBox "c"))), End StarBox))
       ; GETREADY (Branch (End (NameBox "z"), Guide ("x", Branch (Guide ("y", Branch (End (NameBox "x"), End (NameBox "y"))), End StarBox))), [Bar; (Node (Bar, Bar)); (Node (Node (Node (Bar, Bar), Bar), Bar))])
       ; GETREADY (Branch (Branch (Branch (Guide ("b", Guide ("a", Branch (End (NameBox "a"), End (NameBox "b")))), End (NameBox "c")), Guide ("d", End (NameBox "d"))), End (NameBox "e")), [Bar; Node (Bar, Bar); Node (Node (Bar, Bar), Node (Bar, Bar))])
+      ; GETREADY (Branch(Branch(Branch(End(NameBox "R"), End(NameBox "Z")), End(NameBox "Y")), Branch(End(NameBox "X"), Branch(Branch(Branch(End(NameBox "M"), Guide("Q", End(NameBox "Q"))),End(NameBox "P")), End(NameBox "L")))), [Bar; Node(Bar, Bar); Node(Node(Bar, Bar), Node(Bar, Node(Bar, Bar)))] )
       ]
 
     let string_of_treasure t =
