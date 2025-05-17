@@ -1,0 +1,11 @@
+*.ml
+!error.ml
+!lexer.mll
+!main.ml
+!pp.ml
+!parser.mly
+!simple_checker.mli
+run
+lexer.ml
+parser.ml
+parser.mli

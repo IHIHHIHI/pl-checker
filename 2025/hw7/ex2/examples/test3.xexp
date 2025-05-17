@@ -1,0 +1,5 @@
+(* Public testcase 3 : Exception handler raising exception *)
+
+(fn y => ((fn x => (raise 5) handle a (raise x + a)) 33) handle b (y + b)) 44
+
+(* Output : 82 *)

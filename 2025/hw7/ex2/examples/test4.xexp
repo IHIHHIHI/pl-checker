@@ -1,0 +1,5 @@
+(* Public testcase 4 : Two subexpressions both raising exceptions. *)
+
+(ifp (raise 10) + (raise 30) then 2 else 1) handle a a
+
+(* Output : 10 *)

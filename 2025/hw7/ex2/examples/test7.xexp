@@ -1,0 +1,14 @@
+(* Public testcase 7 : Toy with 'raise' function *)
+
+(
+  (fn error => 
+    (fn x => 
+      ifp x then
+      error 1
+      else 
+      error 2
+    ) 5
+  ) (fn x => raise x)
+) handle a a
+
+(* Output : 1 *)

@@ -1,0 +1,5 @@
+(* Public testcase9 : uncaught *)
+
+raise 10
+
+(* Output : 2024 *)

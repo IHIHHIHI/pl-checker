@@ -1,0 +1,5 @@
+(* Public testcase 1 : Simple Raise/Handle with If *)
+
+(ifp 0 + (-8) then 50 else raise 77) handle a (a + 23)
+
+(* Output : 100 *)
