@@ -49,3 +49,4 @@ $ ./run -pcps examples/test1.xexp
 22 박규연 <kypark@ropas.snu.ac.kr>
 22 조승한 <shjo@ropas.snu.ac.kr>
 24 이재호 <jhlee@ropas.snu.ac.kr>
+25 오규혁 <ghoh@ropas.snu.ac.kr>

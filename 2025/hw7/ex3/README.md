@@ -60,4 +60,5 @@ $ ./run -pp examples/test1.m
 이동권 <dklee@ropas.snu.ac.kr>
 배요한 <yhbae@ropas.snu.ac.kr>
 이재호 <jhlee@ropas.snu.ac.kr>
+오규혁 <ghoh@ropas.snu.ac.kr>
 
